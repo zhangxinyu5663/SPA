@@ -1,0 +1,122 @@
+body {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.notepad-replace-dlg{
+  width:100%;
+  height:100%;
+  z-index:10;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.notepad-replace-dlg .dialogbox{
+  margin:100px auto;
+  width:568px;
+  height:284px;
+  border:1px solid #0f7fd6;
+  position:relative;
+
+}
+.notepad-replace-dlg .dialogbox .titlebar{
+  width:100%;
+  height:40px;
+  margin:0;
+  background-color:white;
+  position:absolute;
+  left:0;
+  top:0;
+}
+.notepad-replace-dlg .dialogbox .titlebar .title{
+  line-height:40px;
+  position:absolute;
+  left:0;
+  top:0;
+  margin:0 10px;
+  font-size:18px;
+}
+
+.notepad-replace-dlg .dialogbox .titlebar .btn-close{
+  position:absolute;
+  right:0;
+  top:0;
+  width:40px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+} 
+.notepad-replace-dlg .dialogbox .titlebar .btn-close:hover{
+  color:white;
+  background-color:red;
+}
+.notepad-replace-dlg .dialogbox .main{
+  background-color:#f1f1f1;
+  width:100%;
+  height:244px;
+  position:absolute;
+  left:0;
+  top:40px;
+}
+.notepad-replace-dlg .dialogbox .main .spanone{
+  position:absolute;
+  top:26px;
+  left:15px;
+}
+.notepad-replace-dlg .dialogbox .main .content{
+  position:absolute;
+  top:18px;
+  left:138px;
+  width:256px;
+  height:30px;
+}
+.notepad-replace-dlg .dialogbox .main .spantwo{
+  position:absolute;
+  top:72px;
+  left:15px;
+}
+.notepad-replace-dlg .dialogbox .main .r-content{
+  position:absolute;
+  top:67px;
+  left:138px;
+  width:256px;
+  height:30px;
+}
+.notepad-replace-dlg .dialogbox .main .spanthree{
+  position:absolute;
+  left:18px;
+  bottom:66px;
+}
+.notepad-replace-dlg .dialogbox .main .next-one{
+  position:absolute;
+  top:12px;
+  right:20px;
+  width:133px;
+  height:30px;
+  line-height:30px;
+} 
+.notepad-replace-dlg .dialogbox .main .replace{
+  position:absolute;
+  top:54px;
+  right:20px;
+  width:133px;
+  height:30px;
+  line-height:30px;
+} 
+.notepad-replace-dlg .dialogbox .main .all-replace{
+  position:absolute;
+  top:96px;
+  right:20px;
+  width:133px;
+  height:30px;
+  line-height:30px;
+} 
+.notepad-replace-dlg .dialogbox .main .btn-cancel{
+  position:absolute;
+  top:138px;
+  right:20px;
+  width:133px;
+  height:30px;
+  line-height:30px;
+} 

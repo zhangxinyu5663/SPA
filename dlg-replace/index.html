@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>查找替换对话框布局和测试页面</title>
+  <link rel="stylesheet" href="dlg-replace.css">
+</head>
+<body>
+<input class="test" type="button" value="弹出对话框">
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="dlg-replace.js"></script>
+<script>
+$(function(){
+  var $btnTest=$('input[type="button"]');
+  $btnTest.click(function(){
+    $dlgReplace.show();
+  });
+});
+</script>
+</body>
+</html>
