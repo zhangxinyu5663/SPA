@@ -46,7 +46,7 @@ var $dlgReplace = (function() {
   function show() {
     $('body').append($dlg);
     $dlg.find('.dialogbox').draggable({handle:$dlg.find('.titlebar')});
-
+    $content.focus();
     $btnClose.click(destroyDlg);
     $btnCancel.click(destroyDlg);
     $content.keyup(verifyContent);
