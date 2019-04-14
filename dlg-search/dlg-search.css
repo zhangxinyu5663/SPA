@@ -1,0 +1,108 @@
+body,html{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.notepad-search-dlg{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:10; /*盖住下面的东西*/
+}
+.notepad-search-dlg .dialogbox{
+  width:574px;
+  height:200px;
+  border:1px solid #0f7fd6;
+  margin:90px auto;
+  position:relative;
+
+}
+.notepad-search-dlg .dialogbox .titlebar{
+  width:100%;
+  height:40px;
+  margin:0;
+  background-color:white;
+  position:absolute;
+  left:0;
+  top:0;
+}
+.notepad-search-dlg .dialogbox .titlebar .title{
+  position:absolute;
+  left:0;
+  margin:0 10px;
+  top:0;
+  line-height:40px;
+  }
+.notepad-search-dlg .dialogbox .titlebar .btn-close{
+  position:absolute;
+  right:0;
+  top:0;
+  width:40px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+}
+.notepad-search-dlg .dialogbox .titlebar .btn-close:hover{
+  background-color:red;
+  color:white;
+}
+.notepad-search-dlg .dialogbox .main{
+  position:absolute;
+  top:40px;
+  left:0;
+  background-color:#f1f1f1;
+  width:574px;
+  height:160px
+} 
+.notepad-search-dlg .dialogbox label{
+  position:absolute;
+  top:10px;
+  left:10px;
+} 
+.notepad-search-dlg .dialogbox .txt-content{
+  position:absolute;
+  top:20px;
+  width:270px;
+  left:138px;
+  height:30px;
+}
+.notepad-search-dlg .dialogbox .btn-search{
+  width:134px;
+  height:32px;
+  position:absolute;
+  right:16px;
+  top:16px;
+}
+.notepad-search-dlg .dialogbox .btn-cancel{
+  width:134px;
+  height:32px;
+  position:absolute;
+  right:16px;
+  bottom:63px;
+}
+.notepad-search-dlg .dialogbox .main .spanone{
+  position:absolute;
+  left:17px;
+  top:28px;
+}
+.notepad-search-dlg .dialogbox .main .spantwo{
+  position:absolute;
+  bottom:31px;
+  left:17px;
+} 
+.notepad-search-dlg .dialogbox .main fieldset{
+  position:absolute;
+  bottom:19px;
+  left:180px;
+  width:200px;
+  height:58px;
+} 
+.notepad-search-dlg .dialogbox .main input[value="down"] {
+  margin-top:14px;
+  margin-left:40px;
+}
+
+
