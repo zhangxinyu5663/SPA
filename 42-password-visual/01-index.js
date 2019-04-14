@@ -1,3 +1,4 @@
+/* global PasswordTextbox: true */
 $(function(){
   var $addBtn=$('#add-password'),
       $getBtn=$('#get-password'),
