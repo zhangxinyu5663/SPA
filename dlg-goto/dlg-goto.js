@@ -1,6 +1,6 @@
 /* exported $dlgGoto */
 var $dlgGoto=(function(){ //加$表示页面上的UI元素
-    //DOM绘制
+  //DOM绘制
   var $dlg=$(''
       + '<div class="notepad-goto-dlg">'
         + '<div class="dialogbox">'
