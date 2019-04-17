@@ -71,8 +71,7 @@ var $dlgFont = (function() {
   function show() {
     init();
     $('body').append($dlg);
-    $dlg.find('.dialogbox').draggable({handle: $titleBar});
-  
+    $dlg.find('.dialogbox').draggable({handle: $titleBar}); 
     $btnOk.click(function() { $dlg.remove(); });
     $btnClose.click(function() { $dlg.remove(); });
     $btnCancel.click(function() { $dlg.remove(); });
