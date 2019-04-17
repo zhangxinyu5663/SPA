@@ -5,19 +5,19 @@ module.exports = function (grunt) {
       options:{
         configFile:'.eslintrc.json'
       },
-      target:['*-*/*.js']
+      target:['*-*/*.js','list/*.js']
     },
     csslint: {
       options:{
         csslintrc:'.csslintrc'
       },
-      src:'*-*/*.css'
+      src:['*-*/*.css','list/*.css'],
     },
     htmlhint: {
       options:{
         htmlhintrc:'.htmlhintrc'
       },
-      src:['*.html','*-*/*.html']
+      src:['*.html','*-*/*.html','list/*.html']
     },  
     htmlmin: {
       options: {
@@ -26,14 +26,14 @@ module.exports = function (grunt) {
       },
       files: {
         expand:true,
-        src: ['*.html','*-*/*.html'],
+        src: ['*.html','*-*/*.html','list/*.html'],
         dest: 'dist/'                            
       }
     },
     cssmin: {
       files:{
         expand:true,
-        src:'*-*/*.css',
+        src:['*-*/*.css','list/*.css'],
         dest:'dist/'
       }
     },
@@ -41,7 +41,7 @@ module.exports = function (grunt) {
       main:{
         files: [{
           expand:true,
-          src:'*-*/*.js',
+          src:['*-*/*.js','list/*.js'],
           dest:'dist/'
         }]               
       }             
